@@ -70,7 +70,6 @@ ol {
   flex-direction: column;
   gap: 26px;
   max-inline-size: 399px;
-  block-size: 534px;
   flex-shrink: 0;
   inline-size: 100%;
 }
@@ -134,7 +133,6 @@ ol {
 .content__video-card-thumbnail {
   inline-size: 194px;
   block-size: 103px;
-  min-inline-size: 194px;
   object-fit: cover;
   object-position: center;
 }
