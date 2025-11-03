@@ -267,6 +267,10 @@ ol {
   text-decoration: underline;
 }
 
+.search-form__label:active .search-form__label-text {
+  text-decoration: none;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -290,6 +294,7 @@ ol {
 
 .button:active {
   background: #545050;
+  text-decoration: none;
 }
 
 .button:focus {
@@ -312,6 +317,11 @@ ol {
 .content__card-link:hover .content__video-card-title,
 .content__card-link:hover .content__video-card-description {
   text-decoration: underline;
+}
+
+.content__card-link:active .content__video-card-title,
+.content__card-link:active .content__video-card-description {
+  text-decoration: none;
 }
 
 .content__card-link:focus {
